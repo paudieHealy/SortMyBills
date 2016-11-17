@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="135b044d-f1b0-4ed9-9765-d04e63623bd2" name="UMLUseCaseDiagram1" linkedPackageId="c732bd65-04e0-48f2-a8db-86bfc46066cf" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="29bfe099-37b8-4063-a2ad-1b16aed20e9b">
+      <profileInstance Id="90bedbba-bfcc-4090-9226-e04816016db6" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b2ef8ab0-e91d-45f9-83f1-345975b1ee31">
+      <profileInstance Id="e04130bd-4b21-4e3a-9e2b-a80cd1713fb8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="870da4c8-0725-453f-9675-2b08b303e99e" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="241ab09f-c21b-47aa-9245-47827f5ddec5" />
+        <targetEnds>
+          <association Id="802c753c-0e9b-401d-a46f-6d3dd82a56c2" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Add Profile" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5ff8206f-49d1-47cc-b7b3-7fbcf55c7557" LastKnownName="Add Profile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ffef0544-6bb9-4de2-b060-63defef70b65" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fced78cf-f061-4ffd-8265-2b11008b02b7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9002dbf0-5219-4482-baf9-d788e06afc31" name="Add Profile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3c01f252-19cd-44bc-846a-ef733de8a774" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4291b8e9-87d3-498c-9c38-893577cd0e21" />
+          </association>
+          <association Id="85677fe8-f05d-47bc-a443-c0d3ef01c4c2" isDerived="false" sourceEndRoleName="User" targetEndRoleName="List Bills" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="853fbf2c-136e-4fc9-a347-d068573ac952" LastKnownName="List Bills" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96c1006e-9077-47fd-b0b5-76bc9b735cb2" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5e06e2f9-dfed-423c-ba94-1dd272faeef9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6da380ab-73c0-411b-99c8-61f985af22d3" name="List Bills" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f29d405a-f935-4c0a-9da1-cae012c7e955" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="11103ec3-21ce-446c-ae11-b5ba5c338d98" />
+          </association>
+          <association Id="3e98b0bf-fff9-4638-a866-185882a14add" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Update Profile" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="678e2cf8-5833-4e1f-8e1e-358e870dcaba" LastKnownName="Update Profile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8a90577-5a1a-416d-bf95-ff6cfe024fe2" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="25b8a1c4-2a38-4859-a8e8-d11fda8e7cab" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ce4654e5-6bbf-435d-b3f2-35dfc00a55ed" name="Update Profile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6747350f-b90c-453a-afdf-dc994f5962af" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="227da72b-73cc-4d92-ab70-6734b096e716" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5ff8206f-49d1-47cc-b7b3-7fbcf55c7557" name="Add Profile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="915434e1-3e5f-4b35-b0b3-f3d65028f2b5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="853fbf2c-136e-4fc9-a347-d068573ac952" name="List Bills" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="92e2e5dd-b453-4ed1-a172-cbe9cfb4faa8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="678e2cf8-5833-4e1f-8e1e-358e870dcaba" name="Update Profile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cdca53e8-6ad5-4227-ba23-0212ba15c90d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="c732bd65-04e0-48f2-a8db-86bfc46066cf" name="ModelingProject1">
+    <elementDefinition Id="38f42ec4-99c1-4ba7-9b2b-09225cc26aa2" />
+  </package>
+</useCaseModelRoot>
