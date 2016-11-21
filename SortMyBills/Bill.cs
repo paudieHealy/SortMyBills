@@ -12,7 +12,7 @@ namespace SortMyBills
         public char getBillDue()
         {
             throw new NotImplementedException();
-            //this is a test by paudie hellooooooooooo
+            //this is a test by me
         }
 
         public void setBillDue(char billDue)
